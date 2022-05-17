@@ -3,8 +3,16 @@
     /* outline: 1px solid black; */
 }
 
-.header, .footer{
+html {
     background-color: rgb(2,104,165);
+}
+
+body {
+    margin: 0;
+}
+
+
+.header, .footer{
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -14,8 +22,18 @@
     color: white;
 }
 
+.bio, .projects-container, .contact-container {
+    background-color: white;
+    border-radius: .25em;  
+}
+
+.projects-container {
+    margin-bottom: 1em;
+    
+}
 .bio.text {
     padding: 2em 8em;
+    line-height: 1.5;
 }
 
 .bio.title {
@@ -25,7 +43,6 @@
 }
 
 .skills {
-    background-color: rgb(2,104,165);
     color: white;
     font-style: italic;
     padding-bottom: 1em;
@@ -101,11 +118,10 @@
 .contact.message,
 .contact.message.textarea {
     margin-left: 4em;
-    font-size: 1.5em;
-    
+    font-size: 1.5em;  
 }
 
-.contact.message.textarea {
-    margin-bottom: 4em;
+.button {
+    margin: .5em 0 1em 7.2em;
 }
 
