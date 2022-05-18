@@ -41,11 +41,13 @@ body {
 
 .section-projects {
     padding: 1rem 4rem;
+    color: #777;
 }
 
 .section-projects li {
     list-style: none;
     margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .section-contact {
@@ -57,3 +59,43 @@ body {
     font-size: 1.2rem;
     font-style: italic;
 }
+
+.input {
+    border: 1px solid #AAA;
+    outline: none;
+    padding: .5em;
+    border-radius: .2em;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+input:focus {
+    border-color: #069;
+    box-shadow: 0 0 5px 0 #069;
+}
+
+.input-no-resize {
+    resize: none;
+}
+
+.input-no-resize:focus {
+    border-color: #069;
+    box-shadow: 0 0 5px 0 #069;
+}
+
+.button {
+    background-color: hsl(200, 100%, 30%);
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: .3em;
+    cursor: pointer;
+    padding: .5em 1em;
+    outline: none;
+    color: white;
+}
+
+.button:hover, .button:focus {
+    background-color: hsl(200, 100%, 20%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 10%);
+}
+
